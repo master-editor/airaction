@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: master-editor/airaction@v2
+        uses: master-editor/airaction@v1
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
