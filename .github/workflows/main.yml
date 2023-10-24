@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Air Action
         id: hello
-        uses: master-editor/airaction@v0.2
+        uses: master-editor/airaction@v1.1
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
